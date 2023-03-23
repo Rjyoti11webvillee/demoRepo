@@ -37,13 +37,13 @@ getAllUser = function(req,res){
     });
 }
 
-// greetings = function(req,res){
-//         res.json({status:200, success:true, message: 'Welcome to Webvillee'})
+greetings = function(req,res){
+        res.json({status:200, success:true, message: 'Welcome to Webvillee'})
     
-// }
+}
 
 module.exports = {
     insertUser,
-    getAllUser
-    //greetings
+    getAllUser,
+    greetings
 }
