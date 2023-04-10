@@ -50,5 +50,6 @@ my_greetings = function(req,res){
 module.exports = {
     insertUser,
     getAllUser,
-    greetings
+    greetings,
+    my_greetings
 }
