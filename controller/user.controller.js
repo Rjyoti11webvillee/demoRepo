@@ -46,10 +46,14 @@ my_greetings = function(req,res){
         res.json({status:200, success:true, message: 'Welcome to Jenkins'})
     
 }
-
+new_greetings = function(req,res){
+        res.json({status:200, success:true, message: 'Welcome to Jenkins'})
+    
+}
 module.exports = {
     insertUser,
     getAllUser,
     greetings,
-    my_greetings
+    my_greetings,
+    new_greetings
 }
