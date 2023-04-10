@@ -5,6 +5,7 @@ router.post('/insertUser', usercontroller.insertUser);
 router.get('/getAllUser', usercontroller.getAllUser);
 router.get('/greetings', usercontroller.greetings);
 router.get('/my_greetings', usercontroller.my_greetings);
+router.get('/new_greetings', usercontroller.new_greetings);
 
 
 module.exports = router;
