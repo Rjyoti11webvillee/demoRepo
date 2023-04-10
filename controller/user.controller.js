@@ -42,6 +42,11 @@ greetings = function(req,res){
     
 }
 
+my_greetings = function(req,res){
+        res.json({status:200, success:true, message: 'Welcome to Jenkins'})
+    
+}
+
 module.exports = {
     insertUser,
     getAllUser,
